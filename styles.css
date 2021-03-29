@@ -3,6 +3,7 @@
 /** CSS variables**/
 :root{
     --primary-color: #D97706;
+    --dark-gray: #6B7280;
 }
 
 body{
@@ -75,4 +76,25 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/**header**/
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin:auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .hero-inverted{
+    color: var(--primary-color);
 }
