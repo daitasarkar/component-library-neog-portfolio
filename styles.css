@@ -9,6 +9,9 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+hr{
+    margin:2rem 0rem;
+}
 /**Container**/
 
 .container{
