@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
+/** CSS variables**/
+:root{
+    --primary-color: #D97706;
+}
+
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -11,7 +16,24 @@ body{
     padding-right: 1rem;
 }
 
-.center-container{
+.container-center{
     max-width:600px;
     margin:auto;
+}
+
+.link{
+    text-decoration: none; /**to remove underline**/
+    padding:0.5rem 1rem;  /**padding top right, top copied to bottom and right to left automatically**/
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.link-secondary{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
