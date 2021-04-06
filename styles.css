@@ -127,6 +127,12 @@ hr {
     border-top-right-radius: 1rem;
 }
 
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+
 .footer .link{
     color: white;
 }
